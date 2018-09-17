@@ -22,7 +22,7 @@ exports.handler=function(event,context,cb){
       var cat="mystery";
       var desc="mystery";
       var title="無奇不有";
-      var img="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p200x200/10353716_720428991363725_2869408499533067513_n.jpg?oh=0833fe19516f2438f8286ac229543b41&oe=591546F5";
+      var img="https://s3-ap-southeast-1.amazonaws.com/damon-rss-lambda/download.jpg";
     
 
     var feed = new RSS({
